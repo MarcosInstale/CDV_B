@@ -10,13 +10,11 @@
 
 Option Strict On
 Option Explicit On
+Namespace My_Project
 
-
-Namespace My
-
-    <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(), _
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0"), _
-     Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)> _
+    <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),
+        Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0"),
+        Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
 
@@ -54,19 +52,17 @@ Namespace My
             End Get
         End Property
     End Class
-End Namespace
 
-Namespace My
 
-    <Global.Microsoft.VisualBasic.HideModuleNameAttribute(), _
-     Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
-     Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()> _
+    <Global.Microsoft.VisualBasic.HideModuleNameAttribute(),
+        Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),
+        Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute()>
     Friend Module MySettingsProperty
 
-        <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")> _
-        Friend ReadOnly Property Settings() As Global.CicloVidaMVC.Test.My.MySettings
+        <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>
+        Friend ReadOnly Property Settings() As Global.CicloVidaMVC.Test.My_Project.MySettings
             Get
-                Return Global.CicloVidaMVC.Test.My.MySettings.Default
+                Return Global.CicloVidaMVC.Test.My_Project.MySettings.Default
             End Get
         End Property
     End Module
